@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <title>Detection of heart Disease</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles.css') }}" />
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <img src="{{ url_for('static',filename='logo.png') }}" alt="logo" class="logo" />
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About us</a></li>
+            <li><a href="#">Helpline</a></li>
+            <li><a href="/project">Predictor</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+    <div class="patterns">
+      <svg width="100%" height="100%">
+        <defs>
+          <style>
+            
+          </style>
+        </defs>
+
+        <text x="50%" y="40%" text-anchor="middle">Cardio Check</text>
+      </svg>
+    </div>
+
+
+
+
+    <div class="data">
+      <p>
+        Heart disease is considered as one of the major causes of death
+        throughout the world. As doctors deal with precious human life, it is
+        very important for them to be right their results.
+      </p>
+
+      <p>
+        Thus we at Pulse, have developed a machine learning algorithm which can
+        predict the vulnerability of heart disease, given basic symptoms like
+        age, gender, pulse rate, resting blood pressure, cholesterol, fasting
+        blood sugar, resting electrocardiographic results, exercise induced
+        angina, ST depression ST segment the slope at peak exercise, number of
+        major vessels coloured by fluoroscopy and maximum heart rate achieved.
+      </p>
+
+    <div class="wrap">
+      <form>
+        <button type="submit" class="button" formaction="/project">
+          Check Now
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
