@@ -21,11 +21,6 @@ After training and testing the dataset with KNN, Decision Tree and Random Forest
 Then saved this model and using Flask for backend linked this model to a website.<br> Users can just enter the 13 parameters in the form and press submit to obtain the probability of whether their heart is prone to any disease or not.<br>
 Here are some screenshots of the website<br>
 ![Picture0](https://user-images.githubusercontent.com/89032469/132378219-81783d6e-8e32-41c8-8fb1-b1b43f739030.png)
-<br>
-![Picture1](https://user-images.githubusercontent.com/89032469/132377999-169ee524-c6c4-4342-9ec2-6c88429d6d86.png)
-![Picture2](https://user-images.githubusercontent.com/89032469/132378025-170dc9e8-2f25-4b1a-ae36-8a2ed4c1e5dd.jpg)
-<br>
-![Picture3](https://user-images.githubusercontent.com/89032469/132378046-bf6af726-d92e-4744-b0cc-acc2d232adfc.png)
 
 
 
