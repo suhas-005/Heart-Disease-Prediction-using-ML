@@ -20,7 +20,7 @@ The last column in the dataset "target" represents if a person has hear disease 
 After training and testing the dataset with KNN, Decision Tree and Random Forest Classifier, chose to use Random Forest classifier as it gave 100% accuracy. We checked for Over-fitting as we obtained 100% accuracy. But as the dataset is very clean and contains almost 50:50 ratio of records with and without heart disease.<br><br>
 Then saved this model and using Flask for backend linked this model to a website.<br> Users can just enter the 13 parameters in the form and press submit to obtain the probability of whether their heart is prone to any disease or not.<br>
 Here are some screenshots of the website<br>
-![Picture0](https://user-images.githubusercontent.com/89032469/132377962-c2702cc6-1c17-41cf-b7ba-9faa5386bae1.png)
+![Picture0](https://user-images.githubusercontent.com/89032469/132378219-81783d6e-8e32-41c8-8fb1-b1b43f739030.png)
 <br>
 ![Picture1](https://user-images.githubusercontent.com/89032469/132377999-169ee524-c6c4-4342-9ec2-6c88429d6d86.png)
 ![Picture2](https://user-images.githubusercontent.com/89032469/132378025-170dc9e8-2f25-4b1a-ae36-8a2ed4c1e5dd.jpg)
