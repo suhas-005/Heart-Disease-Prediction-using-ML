@@ -1,6 +1,7 @@
 # Machine Learning based Web Application to predict Heart Disease
 Developed a machine learning model to predict heart disease. Linked this model to a Web Aplication to make it available for users to check their heart health.<br>
 We have obtained the dataset from Kaggle. It has patient medical records with 13 parameters/columns useful to predict heart health.<br>
+```
 The 13 parameters which are given in the datset used to predict if a person has heart disease or not are:
 - age : The person's age in years
 - sex : The person's sex (1 = male, 0 = female)
@@ -18,10 +19,17 @@ The 13 parameters which are given in the datset used to predict if a person has 
 <br>
 The last column in the dataset "target" represents if a person has hear disease or not (1 = Heart disease, 0 = No Heart disease).<br><br>
 After training and testing the dataset with KNN, Logistic Regression and Linear Regression and Naive Bayes and comparing their accuracies, chose to use Logistic Regression for implentation.<br><br>
-Then saved this model and using Flask for backend linked this model to a website.<br> Users can just enter the 13 parameters in the form and press submit to obtain the probability of whether their heart is prone to any disease or not.<br>
-Here are some screenshots of the website<br>
+Then saved this model and using Flask for backend linked this model to a website.<br> Users can just enter the 13 parameters in the form and press submit to obtain the probability of whether their heart is prone to any disease or not.<br> 
+```
+<br><br><br>
 
+How to RUN the Project:
+- Install necessary packages such as Flask, Numpy etc.
+- Then type in the command
+``` python app.py ```
+<br><br><br><br>
 
+Here are some screenshots of the website
 ![Picture0](https://user-images.githubusercontent.com/89032469/132379063-6b00e167-71ee-4ad3-b495-86018f05d2f6.png)
 
 
