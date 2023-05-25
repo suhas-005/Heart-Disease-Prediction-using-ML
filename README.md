@@ -16,11 +16,11 @@ The 13 parameters which are given in the datset used to predict if a person has 
 - slope : the slope of the peak exercise ST segment (Value 1: upsloping, Value 2: flat, Value 3: downsloping)
 - ca : The number of major vessels (0-3)
 - thal : A blood disorder called thalassemia (3 = normal; 6 = fixed defect; 7 = reversable defect) 
+```
 <br>
 The last column in the dataset "target" represents if a person has hear disease or not (1 = Heart disease, 0 = No Heart disease).<br><br>
 After training and testing the dataset with KNN, Logistic Regression and Linear Regression and Naive Bayes and comparing their accuracies, chose to use Logistic Regression for implentation.<br><br>
 Then saved this model and using Flask for backend linked this model to a website.<br> Users can just enter the 13 parameters in the form and press submit to obtain the probability of whether their heart is prone to any disease or not.<br> 
-```
 <br><br><br>
 
 How to RUN the Project:
